@@ -14,8 +14,8 @@
 ## 目录结构
 
 ```
-assets/        # approved asset records（按提案批次一个子目录：<YYYYMMDD>-<slug>/）
-INDEX.md       # 资产索引：日期-slug | 领域 | 一行摘要（去重依据）
+assets/        # approved asset records（按提案批次一个子目录：<proposal_id>/，即 <YYYYMMDD-HHmm>-<slug>/）
+INDEX.md       # 资产索引：proposal_id | 领域 | 一行摘要（去重依据）
 registry.json  # registry entry：机器可读的资产登记表
 reviews/       # 评审记录：入库申请的审批结论
 .github/ISSUE_TEMPLATE/asset-intake.md   # 入库申请 issue 模板
