@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "comment": "registry entry：机器可读的资产登记表。owner 批准入库时由人工或授权自动化追加条目。",
+  "assets": []
+}
