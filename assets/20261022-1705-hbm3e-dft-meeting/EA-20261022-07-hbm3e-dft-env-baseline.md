@@ -10,6 +10,8 @@ project: HBM
 layer: 项目级
 ai_form: Memory
 source: HBM3E DFT debug 复盘会议纪要 2026-10-20
+provenance_status: synthetic
+provenance_note: 由构造的 HBM3E DFT 会议纪要生成，仅用于验证资产化流程，不代表真实项目结论
 owner: HBM 项目负责人
 status: approved
 approved_by: LiJiaT

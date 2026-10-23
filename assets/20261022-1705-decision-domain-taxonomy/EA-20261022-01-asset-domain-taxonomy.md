@@ -9,6 +9,8 @@ project: 无
 layer: 公共级
 ai_form: Memory
 source: 2026-10-22 资产化 skill 领域划分决策记录
+provenance_status: source-excerpt
+provenance_note: 2026-10-22 资产化体系设计决策的摘要，原始记录未在仓库留存；与《AI 公共规范 v0.5》1.2 节核对后可升级为 verified
 owner: AI 平台团队
 status: approved
 approved_by: LiJiaT

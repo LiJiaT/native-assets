@@ -28,6 +28,14 @@ reviews/       # 评审记录：入库申请的审批结论
 3. **GitHub owner 批准后**合入 `assets/`，同时更新 `INDEX.md` 与 `registry.json`，形成 approved asset record；
 4. 技能只负责生成申请内容与校验材料；**push / merge / 关闭 issue 由人执行**（或经人明确授权的自动化执行）。
 
+## 来源可信度
+
+approved asset record 的 `provenance_status` 标记内容来源可信度，与 `registry.json` 同名字段一致：
+
+- `verified`：已对照原始来源逐条核验；
+- `source-excerpt`：真实来源的节选/摘要，尚未全文核验；
+- `synthetic`：构造材料，仅用于流程验证，不代表真实事实。
+
 ## 纪律（R3 / R9）
 
 - 技能不得自行关闭 issue、批准 PR 或合并；批准与合并权限只属于 owner。

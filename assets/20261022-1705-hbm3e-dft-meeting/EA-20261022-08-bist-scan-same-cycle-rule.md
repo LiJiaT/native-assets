@@ -12,6 +12,8 @@ project: HBM
 layer: 领域级
 ai_form: Rule
 source: HBM3E DFT debug 复盘会议纪要 2026-10-20
+provenance_status: synthetic
+provenance_note: 由构造的 HBM3E DFT 会议纪要生成，仅用于验证资产化流程，不代表真实项目结论
 owner: DFT 领域 owner
 status: approved
 approved_by: LiJiaT

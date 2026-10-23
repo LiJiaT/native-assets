@@ -9,6 +9,8 @@ project: 无
 layer: 公共级
 ai_form: Rule
 source: AI 公共规范 4.4 团队强制规则 2026-10-22
+provenance_status: source-excerpt
+provenance_note: 摘自《AI 公共规范（v0.5 草案）》4.4 节，未逐条对照规范全文核验
 owner: AI 平台团队
 status: approved
 approved_by: LiJiaT
