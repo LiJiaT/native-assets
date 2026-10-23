@@ -19,11 +19,11 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
-  ai_infra_repo: eng-asset-ai-components
-  package: rules/bist-scan-same-cycle-exclusion.md
+  ai_infra_repo: ai-native-basic-component
+  package: rules/dft/bist-scan-same-cycle-exclusion.md
   installed: '2026-10-22'
   installed_by: LiJiaT
-  notes: ''
+  notes: 领域级（DFT/时序）；2026-10-23 按 9 领域归位到组件库 dft 目录
 ---
 ## 内容
 

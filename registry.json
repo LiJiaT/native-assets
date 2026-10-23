@@ -184,11 +184,11 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-08-bist-scan-same-cycle-rule.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
-        "package": "rules/bist-scan-same-cycle-exclusion.md",
+        "ai_infra_repo": "ai-native-basic-component",
+        "package": "rules/dft/bist-scan-same-cycle-exclusion.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
+        "notes": "领域级（DFT/时序）；2026-10-23 按 9 领域归位到组件库 dft 目录"
       }
     },
     {
@@ -210,11 +210,11 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-09-stack-level-repair-decision.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
-        "package": "components/hbm3e-stack-level-repair-decision.md",
+        "ai_infra_repo": "ai-native-basic-component",
+        "package": "memory/dft/hbm3e-stack-level-repair-decision.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": "领域级载体未定义，先落到 D--Project 项目 memory；owner 指定领域级载体后迁移"
+        "notes": "领域级（DFT/设计）；2026-10-23 按 9 领域归位到组件库 dft 目录；本机暂装 D--Project 项目 memory，建 HBM 项目后迁移"
       }
     }
   ]
