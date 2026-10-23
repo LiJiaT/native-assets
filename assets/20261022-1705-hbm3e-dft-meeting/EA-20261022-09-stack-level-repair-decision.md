@@ -18,6 +18,11 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
+  ai_infra_repo: eng-asset-ai-components
+  package: components/hbm3e-stack-level-repair-decision.md
+  installed: '2026-10-22'
+  installed_by: LiJiaT
+  notes: 领域级载体未定义，先落到 D--Project 项目 memory；owner 指定领域级载体后迁移
 ---
 ## 内容
 

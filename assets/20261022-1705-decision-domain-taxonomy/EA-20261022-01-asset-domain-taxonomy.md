@@ -14,6 +14,11 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
+  ai_infra_repo: eng-asset-ai-components
+  package: components/asset-taxonomy.md
+  installed: '2026-10-22'
+  installed_by: LiJiaT
+  notes: 公共级；以受管区块写入 ~/.claude/CLAUDE.md（全局载入点）
 ---
 ## 内容
 

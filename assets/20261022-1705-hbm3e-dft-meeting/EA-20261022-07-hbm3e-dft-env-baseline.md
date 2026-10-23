@@ -15,6 +15,11 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
+  ai_infra_repo: eng-asset-ai-components
+  package: components/hbm3e-dft-env-baseline.md
+  installed: '2026-10-22'
+  installed_by: LiJiaT
+  notes: HBM 项目目录本机不存在，先落到 D--Project 项目 memory；建 HBM 项目后迁移
 ---
 ## 内容
 

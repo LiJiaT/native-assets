@@ -14,6 +14,11 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
+  ai_infra_repo: eng-asset-ai-components
+  package: rules/verify-or-review-before-delivery.md
+  installed: '2026-10-22'
+  installed_by: LiJiaT
+  notes: ''
 ---
 ## 内容
 

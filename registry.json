@@ -16,7 +16,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-decision-domain-taxonomy/EA-20261022-01-asset-domain-taxonomy.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "components/asset-taxonomy.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": "公共级；以受管区块写入 ~/.claude/CLAUDE.md（全局载入点）"
+      }
     },
     {
       "asset_id": "EA-20261022-02",
@@ -32,7 +38,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-02-filelist-sync.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/verilog-filelist-sync.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-03",
@@ -48,7 +60,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-03-no-auto-external-actions.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/no-auto-external-actions.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-04",
@@ -64,7 +82,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-04-verify-or-review-before-delivery.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/verify-or-review-before-delivery.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-05",
@@ -80,7 +104,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-05-subtask-acceptance-checklist.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/subtask-acceptance-checklist.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-06",
@@ -96,7 +126,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-06-no-raw-records-in-memory.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/no-raw-records-in-memory.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-07",
@@ -114,7 +150,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-07-hbm3e-dft-env-baseline.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "components/hbm3e-dft-env-baseline.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": "HBM 项目目录本机不存在，先落到 D--Project 项目 memory；建 HBM 项目后迁移"
+      }
     },
     {
       "asset_id": "EA-20261022-08",
@@ -133,7 +175,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-08-bist-scan-same-cycle-rule.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "rules/bist-scan-same-cycle-exclusion.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": ""
+      }
     },
     {
       "asset_id": "EA-20261022-09",
@@ -152,7 +200,13 @@
       "approved_by": "LiJiaT",
       "approved_date": "2026-10-22",
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-09-stack-level-repair-decision.md",
-      "implementation": null
+      "implementation": {
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "components/hbm3e-stack-level-repair-decision.md",
+        "installed": "2026-10-22",
+        "installed_by": "LiJiaT",
+        "notes": "领域级载体未定义，先落到 D--Project 项目 memory；owner 指定领域级载体后迁移"
+      }
     }
   ]
 }
