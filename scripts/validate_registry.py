@@ -55,7 +55,9 @@ def split(text):
 
 
 def sha(path):
-    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    # Git checkout line endings differ by OS; hash canonical LF bytes.
+    data = Path(path).read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def content_hash(fm, body):
