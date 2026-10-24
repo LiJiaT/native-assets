@@ -22,8 +22,12 @@
         "package": "components/asset-taxonomy.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": "公共级；以受管区块写入 ~/.claude/CLAUDE.md（全局载入点）"
-      }
+        "notes": "公共级；以受管区块写入 ~/.claude/CLAUDE.md（全局载入点）",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-01.json"
     },
     {
       "asset_id": "EA-20261022-02",
@@ -45,8 +49,12 @@
         "package": "rules/verilog-filelist-sync.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
-      }
+        "notes": "",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-02.json"
     },
     {
       "asset_id": "EA-20261022-03",
@@ -68,8 +76,12 @@
         "package": "rules/no-auto-external-actions.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
-      }
+        "notes": "",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-03.json"
     },
     {
       "asset_id": "EA-20261022-04",
@@ -91,8 +103,12 @@
         "package": "rules/verify-or-review-before-delivery.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
-      }
+        "notes": "",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-04.json"
     },
     {
       "asset_id": "EA-20261022-05",
@@ -114,8 +130,12 @@
         "package": "rules/subtask-acceptance-checklist.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
-      }
+        "notes": "",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-05.json"
     },
     {
       "asset_id": "EA-20261022-06",
@@ -137,8 +157,12 @@
         "package": "rules/no-raw-records-in-memory.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
-        "notes": ""
-      }
+        "notes": "",
+        "status": "installed"
+      },
+      "schema_version": 2,
+      "release_channel": "component-library",
+      "approval_ref": "approvals/EA-20261022-06.json"
     },
     {
       "asset_id": "EA-20261022-07",
@@ -159,11 +183,17 @@
       "provenance_status": "synthetic",
       "implementation": {
         "ai_infra_repo": "eng-asset-ai-components",
-        "package": "components/hbm3e-dft-env-baseline.md",
-        "installed": "2026-10-22",
-        "installed_by": "LiJiaT",
-        "notes": "HBM 项目目录本机不存在，先落到 D--Project 项目 memory；建 HBM 项目后迁移"
-      }
+        "package": "samples/synthetic/hbm3e-dft-env-baseline.md",
+        "installed": null,
+        "installed_by": null,
+        "notes": "synthetic 仅用于流程验证；已撤出生产安装点，组件移入 samples/synthetic",
+        "status": "withdrawn",
+        "previous_installed": "2026-10-22",
+        "withdrawn_at": "2026-10-24"
+      },
+      "schema_version": 2,
+      "release_channel": "test-only",
+      "approval_ref": "approvals/EA-20261022-07.json"
     },
     {
       "asset_id": "EA-20261022-08",
@@ -184,12 +214,18 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-08-bist-scan-same-cycle-rule.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "ai-native-basic-component",
-        "package": "rules/dft/bist-scan-same-cycle-exclusion.md",
-        "installed": "2026-10-22",
-        "installed_by": "LiJiaT",
-        "notes": "领域级（DFT/时序）；2026-10-23 按 9 领域归位到组件库 dft 目录"
-      }
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "samples/synthetic/bist-scan-same-cycle-exclusion.md",
+        "installed": null,
+        "installed_by": null,
+        "notes": "synthetic 仅用于流程验证；已撤出生产安装点，组件移入 samples/synthetic",
+        "status": "withdrawn",
+        "previous_installed": "2026-10-22",
+        "withdrawn_at": "2026-10-24"
+      },
+      "schema_version": 2,
+      "release_channel": "test-only",
+      "approval_ref": "approvals/EA-20261022-08.json"
     },
     {
       "asset_id": "EA-20261022-09",
@@ -210,12 +246,18 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-09-stack-level-repair-decision.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "ai-native-basic-component",
-        "package": "memory/dft/hbm3e-stack-level-repair-decision.md",
-        "installed": "2026-10-22",
-        "installed_by": "LiJiaT",
-        "notes": "领域级（DFT/设计）；2026-10-23 按 9 领域归位到组件库 dft 目录；本机暂装 D--Project 项目 memory，建 HBM 项目后迁移"
-      }
+        "ai_infra_repo": "eng-asset-ai-components",
+        "package": "samples/synthetic/hbm3e-stack-level-repair-decision.md",
+        "installed": null,
+        "installed_by": null,
+        "notes": "synthetic 仅用于流程验证；已撤出生产安装点，组件移入 samples/synthetic",
+        "status": "withdrawn",
+        "previous_installed": "2026-10-22",
+        "withdrawn_at": "2026-10-24"
+      },
+      "schema_version": 2,
+      "release_channel": "test-only",
+      "approval_ref": "approvals/EA-20261022-09.json"
     }
   ]
 }

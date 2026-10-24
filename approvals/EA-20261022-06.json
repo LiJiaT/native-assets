@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "asset_id": "EA-20261022-06",
+  "proposal_id": "20261022-1705-ai-public-rules",
+  "record_path": "assets/20261022-1705-ai-public-rules/EA-20261022-06-no-raw-records-in-memory.md",
+  "record_sha256": "2c9571e699b6c9634b8001be00060aa7aceb6924dc491f6133567d3dbdd349cd",
+  "content_sha256": "8d9371821bd8c6b3d4f39bedf989e4bd1a0584bd82e7c93563d42ed4eb8e3b4b",
+  "approver": "LiJiaT",
+  "approver_role": "asset owner",
+  "decision": "approved",
+  "approved_at": "2026-10-22",
+  "scope": {
+    "layer": "公共级",
+    "projects": [],
+    "domains": [],
+    "ai_form": "Rule",
+    "owner": "AI 平台团队",
+    "provenance_status": "source-excerpt",
+    "release_channel": "component-library"
+  },
+  "release_channel": "component-library",
+  "basis": "owner approval recorded in reviews/20261022-1705-ai-public-rules.md (approved 2026-10-22)",
+  "binding_note": "2026-10-24 将既有 owner 批准回溯绑定到当前内容 hash；同日对齐 provenance 版本基线为 v0.7 revision 5267。绑定后内容变更即失效。"
+}

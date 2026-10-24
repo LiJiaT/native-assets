@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "asset_id": "EA-20261022-08",
+  "proposal_id": "20261022-1705-hbm3e-dft-meeting",
+  "record_path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-08-bist-scan-same-cycle-rule.md",
+  "record_sha256": "234187b016cc8520026c0ff8fea7b6fe300446742c24286613f6b56c07a77d4c",
+  "content_sha256": "266ec551dc26561212196dd2f3aeb7fdb790346703c54bf9fadb00d209f874f3",
+  "approver": "LiJiaT",
+  "approver_role": "asset owner",
+  "decision": "approved",
+  "approved_at": "2026-10-22",
+  "scope": {
+    "layer": "领域级",
+    "projects": [
+      "HBM"
+    ],
+    "domains": [
+      "DFT",
+      "时序"
+    ],
+    "ai_form": "Rule",
+    "owner": "DFT 领域 owner",
+    "provenance_status": "synthetic",
+    "release_channel": "test-only"
+  },
+  "release_channel": "test-only",
+  "basis": "owner approval recorded in reviews/20261023-domain-relocation.md (approved 2026-10-22)",
+  "binding_note": "2026-10-24 将既有 owner 批准回溯绑定到当前内容 hash；同日对齐 provenance 版本基线为 v0.7 revision 5267。绑定后内容变更即失效。"
+}

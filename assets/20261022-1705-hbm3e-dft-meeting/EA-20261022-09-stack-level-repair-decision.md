@@ -20,11 +20,19 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
-  ai_infra_repo: ai-native-basic-component
-  package: memory/dft/hbm3e-stack-level-repair-decision.md
-  installed: '2026-10-22'
-  installed_by: LiJiaT
-  notes: 领域级（DFT/设计）；2026-10-23 按 9 领域归位到组件库 dft 目录；本机暂装 D--Project 项目 memory，建 HBM 项目后迁移
+  ai_infra_repo: eng-asset-ai-components
+  package: samples/synthetic/hbm3e-stack-level-repair-decision.md
+  installed: null
+  installed_by: null
+  notes: 领域级（DFT/设计）；2026-10-23 按 9 领域归位到组件库 dft 目录；本机暂装 D--Project 项目 memory，建 HBM
+    项目后迁移
+  status: withdrawn
+  previous_installed: '2026-10-22'
+  withdrawn_at: '2026-10-24'
+  withdrawn_reason: synthetic 资产仅用于流程验证，已从生产安装点撤出并移入 samples/synthetic（test-only）
+schema_version: 2
+release_channel: test-only
+approval_ref: approvals/EA-20261022-09.json
 ---
 ## 内容
 

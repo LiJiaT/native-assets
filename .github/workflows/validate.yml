@@ -1,0 +1,26 @@
+name: validate-assets
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pyyaml
+      - name: Validate records / registry / INDEX / approvals
+        run: python -X utf8 scripts/validate_registry.py --repo .
+      - name: Validate JSON syntax
+        run: |
+          python - <<'PY'
+          import json, glob
+          for p in glob.glob('schemas/*.json') + ['registry.json']:
+              json.load(open(p, encoding='utf-8'))
+              print('ok', p)
+          PY

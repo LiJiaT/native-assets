@@ -18,10 +18,17 @@ approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
   ai_infra_repo: eng-asset-ai-components
-  package: components/hbm3e-dft-env-baseline.md
-  installed: '2026-10-22'
-  installed_by: LiJiaT
+  package: samples/synthetic/hbm3e-dft-env-baseline.md
+  installed: null
+  installed_by: null
   notes: HBM 项目目录本机不存在，先落到 D--Project 项目 memory；建 HBM 项目后迁移
+  status: withdrawn
+  previous_installed: '2026-10-22'
+  withdrawn_at: '2026-10-24'
+  withdrawn_reason: synthetic 资产仅用于流程验证，已从生产安装点撤出并移入 samples/synthetic（test-only）
+schema_version: 2
+release_channel: test-only
+approval_ref: approvals/EA-20261022-07.json
 ---
 ## 内容
 

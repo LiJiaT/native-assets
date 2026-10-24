@@ -10,7 +10,7 @@ layer: 公共级
 ai_form: Rule
 source: AI 公共规范 4.4 团队强制规则 2026-10-22
 provenance_status: source-excerpt
-provenance_note: 摘自《AI 公共规范（v0.5 草案）》4.4 节，未逐条对照规范全文核验
+provenance_note: 摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。
 owner: AI 平台团队
 status: approved
 approved_by: LiJiaT
@@ -21,6 +21,10 @@ implementation:
   installed: '2026-10-22'
   installed_by: LiJiaT
   notes: ''
+  status: installed
+schema_version: 2
+release_channel: component-library
+approval_ref: approvals/EA-20261022-06.json
 ---
 ## 内容
 
