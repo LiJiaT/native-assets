@@ -27,7 +27,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-01.json"
+      "approval_ref": "approvals/EA-20261022-01.json",
+      "provenance_note": "2026-10-22 资产化体系设计决策的摘要；正文中的 v0.5 为决策时点版本，当前对应《AI 公共规范（v0.7 草案）》revision 5267 的 1.2 节。原始记录未在仓库留存，暂保持 source-excerpt。"
     },
     {
       "asset_id": "EA-20261022-02",
@@ -54,7 +55,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-02.json"
+      "approval_ref": "approvals/EA-20261022-02.json",
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-03",
@@ -81,7 +83,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-03.json"
+      "approval_ref": "approvals/EA-20261022-03.json",
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-04",
@@ -108,7 +111,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-04.json"
+      "approval_ref": "approvals/EA-20261022-04.json",
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-05",
@@ -135,7 +139,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-05.json"
+      "approval_ref": "approvals/EA-20261022-05.json",
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-06",
@@ -162,7 +167,8 @@
       },
       "schema_version": 2,
       "release_channel": "component-library",
-      "approval_ref": "approvals/EA-20261022-06.json"
+      "approval_ref": "approvals/EA-20261022-06.json",
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-07",
@@ -193,7 +199,8 @@
       },
       "schema_version": 2,
       "release_channel": "test-only",
-      "approval_ref": "approvals/EA-20261022-07.json"
+      "approval_ref": "approvals/EA-20261022-07.json",
+      "provenance_note": "由构造的 HBM3E DFT 会议纪要生成，仅用于验证资产化流程，不代表真实项目结论"
     },
     {
       "asset_id": "EA-20261022-08",
@@ -225,7 +232,8 @@
       },
       "schema_version": 2,
       "release_channel": "test-only",
-      "approval_ref": "approvals/EA-20261022-08.json"
+      "approval_ref": "approvals/EA-20261022-08.json",
+      "provenance_note": "由构造的 HBM3E DFT 会议纪要生成，仅用于验证资产化流程，不代表真实项目结论"
     },
     {
       "asset_id": "EA-20261022-09",
@@ -257,7 +265,8 @@
       },
       "schema_version": 2,
       "release_channel": "test-only",
-      "approval_ref": "approvals/EA-20261022-09.json"
+      "approval_ref": "approvals/EA-20261022-09.json",
+      "provenance_note": "由构造的 HBM3E DFT 会议纪要生成，仅用于验证资产化流程，不代表真实项目结论"
     }
   ]
 }

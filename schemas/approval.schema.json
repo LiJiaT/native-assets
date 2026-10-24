@@ -2,21 +2,30 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "asset approval binding",
   "type": "object",
-  "required": ["schema_version", "asset_id", "proposal_id", "record_path", "record_sha256", "content_sha256", "approver", "decision", "approved_at", "scope"],
+  "required": ["schema_version", "asset_id", "proposal_id", "record_path", "record_sha256", "content_sha256", "approver", "decision", "approved_at", "scope", "release_channel"],
   "properties": {
     "schema_version": {"const": "1"},
     "asset_id": {"type": "string", "pattern": "^EA-[0-9]{8}-[0-9]{2,}$"},
-    "proposal_id": {"type": "string"},
-    "record_path": {"type": "string"},
+    "proposal_id": {"type": "string", "minLength": 4},
+    "record_path": {"type": "string", "minLength": 1},
     "record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "approver": {"type": "string", "minLength": 2},
     "approver_role": {"type": "string"},
     "decision": {"enum": ["approved", "rejected", "needs-revision"]},
-    "approved_at": {"type": "string"},
+    "approved_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}"},
     "scope": {
       "type": "object",
-      "required": ["layer", "projects", "domains", "ai_form", "owner", "provenance_status", "release_channel"]
+      "required": ["layer", "projects", "domains", "ai_form", "owner", "provenance_status", "release_channel"],
+      "properties": {
+        "layer": {"enum": ["个人级", "项目级", "领域级", "公共级"]},
+        "projects": {"type": "array", "items": {"enum": ["LPDDR6", "HBM"]}},
+        "domains": {"type": "array", "items": {"enum": ["架构", "设计", "验证", "时序", "DFT", "后仿", "Firmware", "模拟", "后端"]}},
+        "ai_form": {"enum": [null, "Memory", "Rule", "Skill", "Workflow", "Hook", "Prompt"]},
+        "owner": {"type": "string", "minLength": 2},
+        "provenance_status": {"enum": ["verified", "source-excerpt", "synthetic"]},
+        "release_channel": {"enum": ["component-library", "personal", "test-only"]}
+      }
     },
     "release_channel": {"enum": ["component-library", "personal", "test-only"]},
     "basis": {"type": "string"},
