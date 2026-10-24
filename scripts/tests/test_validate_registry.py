@@ -156,6 +156,33 @@ def main():
         r = run(d)
         check("approval scope domains drift rejected", r.returncode != 0, r.stdout[-300:])
 
+        d = fresh(root, "withdrawn-installed")
+        p = next((d / "assets").rglob("EA-20261022-01*.md"))
+        fm, body = split(p.read_text(encoding="utf-8"))
+        fm["status"] = "withdrawn"
+        fm.setdefault("implementation", {})["status"] = "installed"
+        p.write_text(dump(fm, body), encoding="utf-8")
+        reg = json.load(open(d / "registry.json", encoding="utf-8"))
+        for e in reg["assets"]:
+            if e["asset_id"] == "EA-20261022-01":
+                e["status"] = "withdrawn"
+        (d / "registry.json").write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n",
+                                         encoding="utf-8")
+        rebind_approval(d, "EA-20261022-01", p, fm, body)
+        r = run(d)
+        check("withdrawn record + installed implementation rejected",
+              r.returncode != 0, r.stdout[-300:])
+
+        d = fresh(root, "mutable-impl")
+        p = next((d / "assets").rglob("EA-20261022-01*.md"))
+        fm, body = split(p.read_text(encoding="utf-8"))
+        fm.setdefault("implementation", {})["notes"] = "2026-10-24 部署状态写回"
+        p.write_text(dump(fm, body), encoding="utf-8")
+        rebind_approval(d, "EA-20261022-01", p, fm, body)
+        r = run(d)
+        check("implementation notes writeback accepted without reapproval",
+              r.returncode == 0, r.stdout[-400:])
+
     if FAILS:
         print(f"FAILED: {len(FAILS)}")
         return 1

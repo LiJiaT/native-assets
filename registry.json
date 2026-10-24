@@ -98,7 +98,7 @@
       "owner": "AI 平台团队",
       "status": "approved",
       "approved_by": "LiJiaT",
-      "approved_date": "2026-10-22",
+      "approved_date": "2026-10-24",
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-04-verify-or-review-before-delivery.md",
       "provenance_status": "source-excerpt",
       "implementation": {
@@ -112,7 +112,7 @@
       "schema_version": 2,
       "release_channel": "component-library",
       "approval_ref": "approvals/EA-20261022-04.json",
-      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5267 的强制规则清单（原记录写 v0.5，2026-10-24 对齐当前基线），未逐条对照规范全文核验。"
+      "provenance_note": "摘自《AI 公共规范（v0.7 草案）》revision 5281 的强制规则清单；2026-10-24 复审后由 owner 将完成判定修正为“执行方自查与独立复核同时满足”，未逐条对照规范全文核验。"
     },
     {
       "asset_id": "EA-20261022-05",

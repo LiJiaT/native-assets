@@ -2,7 +2,7 @@
 
 技能 A「工程知识资产化」的入库落地仓库。存放 **approved asset record**、资产索引、registry entry 与评审记录。
 
-对应规范：《AI Native 工程规范》§3.4（飞书文档 `SlsGd0bKQo6pVNxxxNAcrF1tnIg`）。
+对应规范：《AI 公共规范》§2.4（资产化落地）（飞书文档 `SlsGd0bKQo6pVNxxxNAcrF1tnIg`）。
 
 ## 链路位置
 

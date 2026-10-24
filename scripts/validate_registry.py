@@ -269,6 +269,9 @@ def main():
             errors.append(f"{aid}: implementation.status 非法")
         if impl.get("status") == "withdrawn" and impl.get("installed"):
             errors.append(f"{aid}: withdrawn 不得保留 installed")
+        if fm.get("status") == "withdrawn" and impl.get("status") == "installed":
+            errors.append(f"{aid}: record 已 withdrawn 但 implementation 仍 installed"
+                          "（需先登记退役处理结果）")
         if fm.get("provenance_status") == "synthetic":
             if fm.get("release_channel") != "test-only":
                 errors.append(f"{aid}: synthetic 必须 release_channel=test-only")
@@ -300,8 +303,8 @@ def main():
                 errors.append(f"{aid}: approval decision 非 approved")
             if a.get("record_path") != records[aid].relative_to(repo).as_posix():
                 errors.append(f"{aid}: approval record_path 与 record 实际路径不一致")
-            if a.get("record_sha256") != sha(records[aid]):
-                errors.append(f"{aid}: record hash 与审批绑定不一致")
+            if a.get("binding_scope") == "full-file" and a.get("record_sha256") != sha(records[aid]):
+                errors.append(f"{aid}: 审批显式绑定全文件但 record hash 不一致")
             if a.get("content_sha256") != content_hash(fm, body):
                 errors.append(f"{aid}: 不可变正文 hash 与审批绑定不一致")
             scope = a.get("scope") or {}
@@ -355,6 +358,8 @@ def main():
                 errors.append(f"{aid}: registry.implementation.{key} 与 record 不一致")
         if impl_r.get("status") == "withdrawn" and impl_r.get("installed"):
             errors.append(f"{aid}: registry withdrawn 但仍有 installed")
+        if fm.get("status") == "withdrawn" and impl_r.get("status") == "installed":
+            errors.append(f"{aid}: registry record withdrawn 但 implementation installed")
         if fm.get("provenance_status") == "synthetic" and impl_r.get("installed"):
             errors.append(f"{aid}: synthetic 不得有生产安装记录")
     for aid in records:
