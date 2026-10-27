@@ -1,4 +1,4 @@
-# 工程知识资产库（eng-knowledge-assets）
+# 工程知识资产库（native-assets）
 
 技能 A「工程知识资产化」的入库落地仓库。存放 **approved asset record**、资产索引、registry entry 与评审记录。
 
@@ -8,7 +8,7 @@
 
 ```
 原始材料 → 技能A（资产化）→ 本 repo 入库申请 issue/PR → owner 批准 → approved asset record
-        → 技能B（资产AI化，见 eng-asset-ai-components）→ 实现申请 → owner 批准 → 合入/分发
+        → 技能B（资产AI化，见 native-assets-build）→ 实现申请 → owner 批准 → 合入/分发
 ```
 
 ## 目录结构
@@ -52,7 +52,7 @@ python -X utf8 scripts/validate_registry.py --repo .
 
 record `status`：`approved` → `deprecated` / `superseded` / `withdrawn`。registry/implementation 另记 `pending` / `implemented` / `installed` / `withdrawn` / `superseded`。修正走新提案并标 `supersedes`；旧实现、分发副本与安装登记必须同步处理，不能只删新文件。
 
-`synthetic` 资产必须 `release_channel: test-only`，不得有生产安装记录。EA-07/08/09 已撤出安装点，组件移入 `ai-native-basic-component/samples/synthetic/`。
+`synthetic` 资产必须 `release_channel: test-only`，不得有生产安装记录。EA-07/08/09 已撤出安装点，组件移入 `native-components/samples/synthetic/`。
 
 ## 纪律（R3 / R9）
 

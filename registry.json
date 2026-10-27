@@ -18,7 +18,7 @@
       "path": "assets/20261022-1705-decision-domain-taxonomy/EA-20261022-01-asset-domain-taxonomy.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "components/asset-taxonomy.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -46,7 +46,7 @@
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-02-filelist-sync.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "rules/verilog-filelist-sync.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -74,7 +74,7 @@
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-03-no-auto-external-actions.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "rules/no-auto-external-actions.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -102,7 +102,7 @@
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-04-verify-or-review-before-delivery.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "rules/verify-or-review-before-delivery.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -130,7 +130,7 @@
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-05-subtask-acceptance-checklist.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "rules/subtask-acceptance-checklist.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -158,7 +158,7 @@
       "path": "assets/20261022-1705-ai-public-rules/EA-20261022-06-no-raw-records-in-memory.md",
       "provenance_status": "source-excerpt",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "rules/no-raw-records-in-memory.md",
         "installed": "2026-10-22",
         "installed_by": "LiJiaT",
@@ -188,7 +188,7 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-07-hbm3e-dft-env-baseline.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "samples/synthetic/hbm3e-dft-env-baseline.md",
         "installed": null,
         "installed_by": null,
@@ -221,7 +221,7 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-08-bist-scan-same-cycle-rule.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "samples/synthetic/bist-scan-same-cycle-exclusion.md",
         "installed": null,
         "installed_by": null,
@@ -254,7 +254,7 @@
       "path": "assets/20261022-1705-hbm3e-dft-meeting/EA-20261022-09-stack-level-repair-decision.md",
       "provenance_status": "synthetic",
       "implementation": {
-        "ai_infra_repo": "eng-asset-ai-components",
+        "ai_infra_repo": "native-assets-build",
         "package": "samples/synthetic/hbm3e-stack-level-repair-decision.md",
         "installed": null,
         "installed_by": null,

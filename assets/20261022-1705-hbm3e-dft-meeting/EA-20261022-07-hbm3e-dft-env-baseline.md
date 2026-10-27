@@ -17,7 +17,7 @@ status: approved
 approved_by: LiJiaT
 approved_date: '2026-10-22'
 implementation:
-  ai_infra_repo: eng-asset-ai-components
+  ai_infra_repo: native-assets-build
   package: samples/synthetic/hbm3e-dft-env-baseline.md
   installed: null
   installed_by: null
